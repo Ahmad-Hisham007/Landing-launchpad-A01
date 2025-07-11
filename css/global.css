@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+/* -----------------Shared Styles------------------------ */
+
+.font-primary {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+}
+.font-secondary {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+/* -----------------Shared Styles------------------------ */
