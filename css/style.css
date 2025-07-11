@@ -326,4 +326,60 @@ section.contact form.contact-form input[type="submit"]{
 /*----------------- Footer styles -----------------------------*/
 
 
+footer{
+    width: 100%;
+    padding: 104px 0;
+    background-color: #FFFFFF;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
 
+footer .container{
+    max-width: 531px !important;
+    padding: 0 !important;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+}
+footer .logo-element{
+    margin-bottom: 8px;
+}
+footer .logo-element a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+footer .logo{
+    font-size: 100px;
+    font-weight: 900;
+    line-height: auto;
+    text-transform: uppercase;
+}
+
+footer .footer-company-description{
+    font-size: 16px;
+    font-weight: regular;
+    line-height: 150%;
+    color: rgba(137, 135, 161, 1);
+    text-align: center;
+}
+footer nav{
+    text-align: center;
+    margin-top: 20px;
+}
+footer nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+footer nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: rgba(137, 135, 161, 1);
+}
