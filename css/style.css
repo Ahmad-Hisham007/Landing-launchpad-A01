@@ -1,3 +1,6 @@
+main{
+    background-color: #f5f8ff;
+}
 /* -----------Header styles------------ */
 
 .header{
@@ -45,4 +48,46 @@ section.hero .hero-title{
     line-height: auto;
     text-align: center;
     margin-bottom: 40px;
+}
+
+/* -----------See It in Action styles------------ */
+
+section.see-it-in-action{
+    width: 100%;
+    padding: 116px 0 0 ;
+}
+
+section.see-it-in-action .container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+section.see-it-in-action .text-block{
+    max-width: 517px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 23px;
+}
+
+section.see-it-in-action .text-block .title{
+    font-size: 42px;
+    font-weight: bold;
+    line-height: auto;
+
+}
+
+section.see-it-in-action .text-block .description{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: regular;
+    color: rgba(37, 36, 50, 0.5);
+}
+section.see-it-in-action .img-block img{
+    width: 100%;
+    border-radius: 48px;
 }
