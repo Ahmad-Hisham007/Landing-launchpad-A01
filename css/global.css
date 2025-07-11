@@ -37,7 +37,13 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 150%;
-  border: 0;
+  border: 1px solid #4E47FF;
   cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.btn-primary:hover{
+    background-color: transparent;
+    color: #4E47FF;
 }
 /* -----------------Shared Styles------------------------ */
