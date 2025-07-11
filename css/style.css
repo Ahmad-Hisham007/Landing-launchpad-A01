@@ -222,3 +222,108 @@ section.testimonials .testimonial-cards-block .user-details .date{
     line-height: 140%;
     color: #B3B3B3;
 }
+
+/* -----------CTA section styles------------ */
+
+section.cta-section{
+    width: 100%;
+    padding: 137px 0 0;
+}
+
+section.cta-section .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 71px 150px;
+    border-radius: 14px;
+    background-color: #FFFFFF;
+}
+
+section.cta-section .title{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 120%;
+    text-align: center;
+    color: #000 !important
+}
+section.cta-section .description{
+    font-size: 16px;
+    font-weight: regular;
+    line-height: 140%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+section.cta-section .btn-primary{
+    font-weight: 400;
+}
+
+section.cta-section img{
+    width: 100%;
+    border-radius: 48px;
+}
+
+/* -----------Contact section styles------------ */
+
+section.contact{
+    width: 100%;
+    padding: 92px 0 14px;
+}
+
+section.contact .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+section.contact h2.title{
+    font-size: 97px;
+    font-weight: bold;
+    line-height: 120%;
+    text-align: left;
+    color: #000;
+}
+
+section.contact form.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    gap: 10px;
+    padding: 70px 0;
+    max-width: 497px;
+    flex: 1 1 500px;
+}
+section.contact form.contact-form label{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+    color: #000;
+}
+
+section.contact form.contact-form input:not([type="submit"]), textarea{
+    width: 100%;
+    padding: 20px 32px;
+    border-radius: 10px;
+    border: 1px solid rgba(214, 221, 237, 1);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #000;
+    background-color: #FFFFFF;
+    margin-bottom: 9px;
+}
+
+section.contact form.contact-form input[type="submit"]{
+    padding: 19px 32px;
+    font-weight: bold;
+}
+
+/*----------------- Footer styles -----------------------------*/
+
+
+
