@@ -1,0 +1,48 @@
+/* -----------Header styles------------ */
+
+.header{
+    width: 100%;;
+}
+.header nav{
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header nav .logo{
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+.header nav .nav-menu .nav-cta{
+    list-style: none;
+}
+
+/* -----------Hero styles------------ */
+
+section.hero{
+    width: 100%;
+    height: auto;
+    background-image: url('../images/bg-hero.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -150px;
+}
+section.hero .container{
+    display: flex;
+    max-width: 905px !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 310px 0 151px 0;
+}
+
+section.hero .hero-title{
+    font-size: 65px;
+    font-weight: bold;
+    line-height: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
